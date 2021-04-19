@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    encoding:
+      forceResponse: true
+      forceRequest: true
+      charset: UTF-8
+      enabled: true
+service:
+  backend:
+    url: http://localhost:8081
